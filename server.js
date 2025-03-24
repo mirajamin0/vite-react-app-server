@@ -22,7 +22,7 @@ const pool = mysql.createPool({
 
 // Base route
 app.get('/', (req, res) => {
-  res.send('API is live!');
+  res.send('API is live! In 5000');
 });
 
 // Test DB connection route
